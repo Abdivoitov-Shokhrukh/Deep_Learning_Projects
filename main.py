@@ -1,9 +1,7 @@
 import streamlit as st
 from fastai.vision.all import *
 import plotly.express as px
-import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+
 #title
 st.title("This is project which indentify Sport Equipments like Parachute, training bench, Snowboard, Ski, Lifejacket, Punching bag, and Surfboard")
 
